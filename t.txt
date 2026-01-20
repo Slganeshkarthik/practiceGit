@@ -1,0 +1,11 @@
+<section id="offers" style="display: none;">
+    <h2>Discounts for you 🎉</h2>
+    <p>Get discounts on your next purchase</p>
+  </section>
+  <button onclick="toogleSection()">Discounts for you 🎉</button>
+  <script>
+    function toogleSection() {
+      let sec = document.getElementById("offers");
+      sec.style.display = sec.style.display === "none" ? "block" : "none";
+    }
+  </script>
