@@ -1,0 +1,13 @@
+<p id="msg"></p>
+</html>
+
+<script>
+  applycoupons(){
+    let newtotal = localStorage.getItem('orderTotal');
+    if (newtotal>100){
+      newtotal = newtotal - (newtotal * 0.1);
+      document.getElementById('msg').innerText = "10% discount applied";
+    }
+    
+  }
+</script>
